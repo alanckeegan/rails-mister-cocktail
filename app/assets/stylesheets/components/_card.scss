@@ -1,31 +1,39 @@
-.cards{
-  display: flex;
-  margin: 4px;
-  padding-left: 0px;
-  justify-content: space-between;
-
-  .card{
-  position:relative;
-  height: 200px;
-  width: 300px;
-  flex: 1 1 auto;
-  }
-
-
-}
-
-.card-body{
+.card {
   display:flex;
   position:relative;
-  background-size: cover;
-  height: 200px;
-  width: 300px;
+  height: 300px;
+  width: 400px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
 }
 
-.card-category{
+.card-category {
+  color: white;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.card-cover {
   position:absolute;
   top: 0px;
-  left: 15px;
+  left: 0px;
+  // background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 100%);
+  // background: radial-gradient(circle, rgba(2,0,36,0) 63%, rgba(255,199,0,1) 100%);
+  // background: linear-gradient(0deg, rgba(2,0,36,0) 70%, rgba(255,186,0,1) 100%);
+  background: linear-gradient(180deg, rgba(2,0,36,0) 70%, rgba(255,186,0,1) 100%);
+  opacity: 0;
+  height: 300px;
+  width: 400px;
+  border-radius: 50%;
+  }
 
+.card-cover:hover{
+  color: rgba(255,199,0,.5);
+  // color: black;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
 }
-
