@@ -1,7 +1,9 @@
 .card-container {
-    display: grid;
+    display: flex;
     background: black;
-    padding: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 1rem;
+    justify-content: space-around;
+
+    // padding: 1rem;
+    // grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    // grid-gap: 1rem;
 }

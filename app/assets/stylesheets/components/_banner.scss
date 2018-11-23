@@ -1,7 +1,7 @@
 .banner {
   color: rgba(255, 255, 255, .6);
   background-image: asset-url('banner.jpg');
-
+  // background: linear-gradient(180deg, rgba(14,0,255,0) 17%, rgba(0,0,0,1) 100%), asset-url('banner.jpg');
   text-align: center;
   height: 50vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
@@ -20,5 +20,5 @@
   font-weight: lighter;
   color: rgb(255, 255, 255);
   opacity: 0.6;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
