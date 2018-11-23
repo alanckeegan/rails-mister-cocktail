@@ -1,0 +1,31 @@
+.cards{
+  display: flex;
+  margin: 4px;
+  padding-left: 0px;
+  justify-content: space-between;
+
+  .card{
+  position:relative;
+  height: 200px;
+  width: 300px;
+  flex: 1 1 auto;
+  }
+
+
+}
+
+.card-body{
+  display:flex;
+  position:relative;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.card-category{
+  position:absolute;
+  top: 0px;
+  left: 15px;
+
+}
+
